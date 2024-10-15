@@ -1,0 +1,1 @@
+web gunicorn publishly.wsgi:application --log-file -
