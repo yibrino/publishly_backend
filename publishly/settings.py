@@ -32,7 +32,7 @@ DEBUG = True
 # DEBUG = env("DEBUG")
 ALLOWED_HOSTS = env("ALLOWED_HOSTS").split(" ")
 CORS_ALLOWED_ORIGINS = [
-        "http://localhost:3001",
+        "http://localhost:3000",
         "https://publishly-46a2edd7f6b7.herokuapp.com",
     
 ]
